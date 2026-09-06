@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Alectra Rate Compare</title>
+  <meta name="description" content="Privacy Policy for the Alectra Rate Compare Chrome extension." />
+  <style>
+    :root {
+      color-scheme: light;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      color: #1a1f2b;
+      background: #f7f8fa;
+      line-height: 1.6;
+    }
+
+    main {
+      max-width: 42rem;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem 4rem;
+    }
+
+    header {
+      margin-bottom: 2rem;
+    }
+
+    h1 {
+      font-size: 1.75rem;
+      margin: 0 0 0.5rem;
+    }
+
+    .meta {
+      color: #5a6472;
+      font-size: 0.9rem;
+      margin: 0;
+    }
+
+    h2 {
+      font-size: 1.2rem;
+      margin: 2rem 0 0.75rem;
+      padding-top: 0.5rem;
+      border-top: 1px solid #e2e5ea;
+    }
+
+    h2:first-of-type {
+      border-top: none;
+      padding-top: 0;
+    }
+
+    h3 {
+      font-size: 1rem;
+      margin: 1.25rem 0 0.5rem;
+    }
+
+    p {
+      margin: 0 0 0.9rem;
+    }
+
+    ul {
+      margin: 0 0 0.9rem;
+      padding-left: 1.4rem;
+    }
+
+    li {
+      margin-bottom: 0.4rem;
+    }
+
+    a {
+      color: #1a6f4c;
+      text-decoration: underline;
+    }
+
+    a:hover {
+      color: #124f36;
+    }
+
+    code {
+      background: #edf0f3;
+      border-radius: 0.25rem;
+      padding: 0.1rem 0.35rem;
+      font-size: 0.9em;
+    }
+
+    .callout {
+      background: #eef7f1;
+      border: 1px solid #cde6d8;
+      border-radius: 0.5rem;
+      padding: 1rem 1.25rem;
+      margin: 0 0 1.5rem;
+    }
+
+    .callout p:last-child {
+      margin-bottom: 0;
+    }
+
+    footer {
+      margin-top: 3rem;
+      padding-top: 1rem;
+      border-top: 1px solid #e2e5ea;
+      color: #5a6472;
+      font-size: 0.85rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 0 0 1rem;
+      font-size: 0.92rem;
+    }
+
+    th, td {
+      text-align: left;
+      padding: 0.5rem 0.6rem;
+      border-bottom: 1px solid #e2e5ea;
+      vertical-align: top;
+    }
+
+    th {
+      color: #5a6472;
+      font-weight: 600;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Privacy Policy</h1>
+      <p class="meta">Alectra Rate Compare — a Chrome extension</p>
+      <p class="meta">Last updated: September 5, 2026</p>
+    </header>
+
+    <div class="callout">
+      <p>
+        <strong>Single purpose.</strong> Alectra Rate Compare helps a signed-in Alectra Utilities customer
+        compare their own electricity usage under Ontario's Tiered and Time-of-Use pricing plans. It reads
+        usage and rate data directly from Alectra's own website and servers, using the same session the
+        user is already logged into, and performs the cost comparison entirely inside the user's browser.
+      </p>
+      <p>
+        This extension is an independent, unofficial tool and is <strong>not affiliated with, endorsed by,
+        or operated by Alectra Utilities</strong>.
+      </p>
+    </div>
+
+    <h2 id="information-we-collect">Information we collect</h2>
+    <p>The extension only handles information needed to fetch and compare your own Alectra electricity data. It does not collect information about any other person, and it does not collect data unrelated to this purpose.</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Data</th>
+          <th>Source</th>
+          <th>Why it's needed</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Authentication token, account number, and meter number</td>
+          <td>Read from your own browser session on <code>myalectra.alectrautilities.com</code> while you are logged in</td>
+          <td>Required to make the same authenticated requests to Alectra's servers that the Alectra website itself makes, so the extension can retrieve your usage on your behalf</td>
+        </tr>
+        <tr>
+          <td>Electricity usage records (read date and consumption in kWh)</td>
+          <td>Fetched from Alectra's usage API using your captured credentials, for the date range you choose</td>
+          <td>Used to calculate and display the Tiered vs. Time-of-Use cost comparison</td>
+        </tr>
+        <tr>
+          <td>Current rate plan pricing</td>
+          <td>Fetched from Alectra's rate plan API using your captured credentials</td>
+          <td>Used so the comparison reflects Alectra's current published rates instead of a hardcoded estimate</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>The extension does not collect your name, email address, physical address, payment or financial account details, health information, or any browsing activity outside of the Alectra usage pages it is designed to work with.</p>
+
+    <h2 id="how-we-use-information">How this information is used</h2>
+    <p>All of the data above is used for exactly one purpose: to display a cost comparison between Tiered and Time-of-Use pricing for your own electricity usage, inside the extension's side panel. The calculation happens entirely on your device, inside your browser.</p>
+    <p>The extension does not use your data for advertising, does not build a profile of you, and does not use it for any purpose beyond the comparison feature described above.</p>
+
+    <h2 id="information-we-share">Information we share</h2>
+    <p>We do not sell, rent, or share your data with any third party. We do not operate any backend server, and the developer of this extension does not receive, store, or have access to your Alectra credentials, usage data, or comparison results.</p>
+    <p>The only network requests the extension makes are:</p>
+    <ul>
+      <li>Directly from your browser to Alectra's own servers (<code>myalectra.alectrautilities.com</code> and <code>alectra-svc.smartcmobile.link</code>), to fetch your usage and rate data using your own logged-in session.</li>
+    </ul>
+    <p>No data is sent to the extension developer, to analytics providers, or to any advertising service.</p>
+
+    <h2 id="storage-and-retention">Where your data is stored</h2>
+    <p>All data handled by the extension is stored locally on your device using the browser's built-in <code>chrome.storage.local</code> API. This includes:</p>
+    <ul>
+      <li>Your captured authentication token, account number, and meter number.</li>
+      <li>The usage records and rate data from your most recent comparison, so the results are still visible if you close and reopen the side panel.</li>
+    </ul>
+    <p>None of this data leaves your device except when it is sent directly to Alectra's own servers as described above. You can remove the stored usage results at any time using the <strong>Clear Data</strong> button in the side panel. Uninstalling the extension permanently deletes all data it has stored.</p>
+
+    <h2 id="data-security">Data security</h2>
+    <p>All network requests made by the extension use HTTPS. Your authentication token and usage data are only ever transmitted over encrypted connections directly to Alectra's servers, and are stored at rest only in the browser's local extension storage on your own device.</p>
+
+    <h2 id="limited-use">Limited Use disclosure</h2>
+    <p>This extension's handling of user data complies with the <a href="https://developer.chrome.com/docs/webstore/program-policies/user-data-faq" target="_blank" rel="noopener">Chrome Web Store User Data Policy</a>, including its Limited Use requirements:</p>
+    <ul>
+      <li><strong>Allowed use:</strong> Data is used only to provide the extension's single, user-facing feature: comparing your own Alectra electricity usage under Tiered and Time-of-Use pricing.</li>
+      <li><strong>Allowed transfer:</strong> Data is not transferred to anyone. It is used directly between your browser and Alectra's own servers to retrieve your usage and rate information.</li>
+      <li><strong>Prohibited advertising:</strong> Your data is never used or transferred for personalized, re-targeted, or interest-based advertising.</li>
+      <li><strong>Prohibited human interaction:</strong> No person, including the developer, reads or has access to your data. It is processed automatically, entirely within your own browser.</li>
+    </ul>
+
+    <h2 id="your-choices">Your choices and control</h2>
+    <ul>
+      <li>You can clear stored usage results and rate data at any time using <strong>Clear Data</strong> in the side panel.</li>
+      <li>You can remove your captured authentication data by clearing your browser's cookies/storage for the Alectra website, or by uninstalling the extension.</li>
+      <li>Uninstalling the extension from Chrome removes all data it has stored.</li>
+    </ul>
+
+    <h2 id="childrens-privacy">Children's privacy</h2>
+    <p>This extension is intended for use by Alectra Utilities account holders and is not directed at children. It does not knowingly collect data from children.</p>
+
+    <h2 id="changes">Changes to this policy</h2>
+    <p>If this policy changes, the "Last updated" date at the top of this page will be revised. Continued use of the extension after a change constitutes acceptance of the updated policy.</p>
+
+    <h2 id="contact">Contact</h2>
+    <p>
+      Questions about this privacy policy or the extension can be raised via the project's GitHub repository:
+      <a href="https://github.com/miles-eastwood/alectra-rate-compare/issues" target="_blank" rel="noopener">github.com/miles-eastwood/alectra-rate-compare/issues</a>.
+    </p>
+
+    <footer>
+      <p>Alectra Rate Compare is an independent, unofficial tool and is not affiliated with, endorsed by, or operated by Alectra Utilities.</p>
+    </footer>
+  </main>
+</body>
+</html>

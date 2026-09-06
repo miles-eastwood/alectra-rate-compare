@@ -58,6 +58,8 @@ If a fixed-date holiday (New Year's Day, Canada Day, Christmas Day, or Boxing Da
 
 Use **Clear Data** in the side panel to remove saved usage results. Removing the extension removes its local extension storage.
 
+Full privacy policy: [miles-eastwood.github.io/alectra-rate-compare](https://miles-eastwood.github.io/alectra-rate-compare/) (source in [`docs/index.html`](docs/index.html)).
+
 ## Development
 
 Requirements: Node.js 14.18 or newer and pnpm.
