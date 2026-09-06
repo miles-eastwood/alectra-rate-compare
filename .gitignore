@@ -1,0 +1,36 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# production
+/build
+/package
+*.zip
+*.crx
+
+# temporary data
+/temp
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env
+.env.*
+.history
+*.log
+
+# local credentials and signing material
+*.pem
+*.key
+*.p12
+*.pfx
+
+# secrets
+secrets.*.js
