@@ -1,6 +1,6 @@
-# Alectra Usage Compare
+# Alectra Rate Compare
 
-Chrome extension for comparing Alectra electricity usage under Ontario tiered and time-of-use (TOU) pricing. Not that this extension is not affiliated with Alectra in any way.
+Chrome extension for comparing Alectra electricity usage under Ontario tiered and time-of-use (TOU) pricing. This extension is not affiliated with Alectra in any way.
 
 ## How to use
 
