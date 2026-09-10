@@ -1,10 +1,10 @@
 # Alectra Rate Compare
 
-Chrome extension for comparing Alectra electricity usage under Ontario tiered and time-of-use (TOU) pricing. This extension is not affiliated with Alectra in any way.
+[Chrome extension](https://chromewebstore.google.com/detail/alectra-rate-compare-unof/ieakekdnpnonimehjookcjipniblanhj) for comparing Alectra electricity usage under Ontario tiered and time-of-use (TOU) pricing. This extension is not affiliated with Alectra in any way.
 
 ## How to use
 
-1. Install the extension in Chrome.
+1. [Install the extension in Google Chrome](https://chromewebstore.google.com/detail/alectra-rate-compare-unof/ieakekdnpnonimehjookcjipniblanhj).
 2. Sign in to [Alectra](https://myalectra.alectrautilities.com/).
 3. Open the [Usage Overview](https://myalectra.alectrautilities.com/portal/#/Usages) page and wait for it to load.
 4. Open Alectra Usage Compare from the Chrome toolbar.
